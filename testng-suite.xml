@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="spring selenium" parallel="tests">
+    <test name="Google Test one">
+        <classes>
+            <class name="com.cucumber.spring.googletest.GoogleSearchResult1Test"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Google Test two">
+        <classes>
+            <class name="com.cucumber.spring.googletest.GoogleSearchResult2Test"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
